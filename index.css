@@ -1,0 +1,10 @@
+#home-container {
+    background-image: url("sketch1.jpg");
+
+}
+
+#home-hello {
+    display: flex;
+    justify-content: center;
+    font-size: 90px;
+}

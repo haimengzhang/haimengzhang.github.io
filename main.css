@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300');
+@import url('https://fonts.googleapis.com/css?family=Fahkwang|Open+Sans+Condensed:300i|Quicksand:500|Source+Sans+Pro:300');
+
+body {
+    /* background-color: #fff9f900; */
+    background-color: mintcream;
+}
+
+img {
+    border-radius: 50%;
+}
+
+img.sketch {
+    opacity: 1;
+    display: block;
+    width: 60%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin-left: 50px;
+}
+
+img.sketch:hover {
+    opacity: 0.3;
+
+}
+
+* a {
+    text-decoration: none;
+    color: limegreen;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 10px;
+    margin: 10px;
+}
+
+#app-container {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    border: 1px;
+    background-color: white;
+    align-self: center;
+    column-width: 1300px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+    color: rgb(7, 7, 126);
+}
+
+/* Horizontal break Line style */
+hr {
+    display: flex;
+}
+
+.message hr {
+    display: block;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.message h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 150;
+}
+
+/* Author  text style */
+p.author {
+    font-weight: 800;
+    font-size: 30px;
+    display: flex;
+    align-self: center;
+    justify-self: flex-start;
+    margin-left: 10px;
+}
+
+h2,
+h3,
+h4,
+a {
+    color: rgb(7, 7, 126);
+}
+
+h4 {
+    font-weight: 300;
+    font-size: 22px;
+    display: block;
+    font-weight: 150;
+    margin: 10px 0px;
+    padding: 1px;
+}
+
+.row-container h4 {
+    color: red;
+    display: block;
+}
+
+p {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: inherit;
+    margin: 0;
+}
+
+div {
+    display: inline-block;
+}
+
+ul li {
+    list-style: none;
+}
+
+/* Headline Message */
+div.message {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: red;
+}
+
+h2 span {
+    float: right;
+    margin-right: 10px;
+}
+
+/* Main information section */
+
+/* Container style */
+.row-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10 30px 20px 30px
+}
+
+/* Left section with image */
+
+
+#left-section img {
+    margin-left: 170px;
+    align-self: center;
+}
+
+#left-section h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+/* Quick intro section */
+#quick-intro {
+    display: block;
+
+}
+
+/* Skills section */
+#skills-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+p.skills-title {
+    font-size: 16px;
+    color: red;
+    display: block;
+}
+
+p.skills-items {
+    display: block;
+}
+
+/**********************Projects Container*************************/
+[class="projects"] {
+    display: block;
+}
+
+#projects-container {
+    display: inline-block;
+    justify-content: space-between;
+}
+
+
+.cthrukids-container {
+    margin: 20px;
+    display: block;
+    column-width: 400px;
+}
+
+p.cthrukids {
+    color: red;
+    font-size: 22px;
+}
+
+p.cthrukids:hover {
+    color: limegreen;
+    font-size: 27px;
+}
+
+.containter-for-art {
+    margin-left: 50px;
+}
+
+/* Box styles */
+[class="title"] {
+    color: red;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 7px 0 7px 0;
+}
+
+[class^="text"] {
+    display: inline-block;
+    column-width: 600px;
+    width: 580px;
+}
+
+[class^="box"] {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 0 30px 30px 30px;
+}
